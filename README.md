@@ -1,11 +1,13 @@
 # Block-based Wall
 A masonry-like gallery logic written in AS 3.0
 
+![test](https://media.giphy.com/media/B7wZyZkHR4yli/giphy.gif)
+
 This is an implementation of a **grid-based, block-based, masonry-like gallery logic**, which takes in an array of items (rectangular blocks of dimension _X by Y_) and arranges them into a canvas of defined area (dynamically adjustable) in such a way that **no 2 blocks can overlap each other** no matter their dimensions and orders in the supplied array; meanwhile, **all the spaces should be optimally utilised** (no redundant row).
 
 The testbed example supplies a collection of default gallery blocks (with dimension _1x1_), then adds in a few blocks of custom dimensions, and finally places them all on a responsive canvas, which, when resized or clicked on, will rearrange the said blocks in a new, random order.
 
-**[The example can be found here.](http://storage.spaces.puresolutions.com.vn/demo/blockbasedwall.swf)**
+**[A larger demo video can be found here.](https://media.giphy.com/media/B7wZyZkHR4yli/giphy-hd.mp4)** Kudos to Giphy for the awesome service!
 
 ## How to compile
 
