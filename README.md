@@ -3,7 +3,7 @@ A masonry-like gallery logic written in AS 3.0
 
 ![test](https://media.giphy.com/media/B7wZyZkHR4yli/giphy.gif)
 
-This is an implementation of a **grid-based, block-based, masonry-like gallery logic**, which takes in an array of items (rectangular blocks of dimension _X by Y_) and arranges them into a canvas of defined area (dynamically adjustable) in such a way that **no 2 blocks can overlap each other** no matter their dimensions and orders in the supplied array; meanwhile, **all the spaces should be optimally utilised** (no redundant row).
+This is an implementation of a **grid-based, block-based, masonry-like gallery logic**, which takes in an array of items (rectangular blocks of dimension _X by Y_) and arranges them into a canvas of defined area (dynamically adjustable) in such a way that **no 2 blocks can overlap each other** no matter their dimensions and orders in the supplied array; meanwhile, **all the spaces should be optimally utilised** (minimum to no rows with unused spaces).
 
 The testbed example supplies a collection of default gallery blocks (with dimension _1x1_), then adds in a few blocks of custom dimensions, and finally places them all on a responsive canvas, which, when resized or clicked on, will rearrange the said blocks in a new, random order.
 
